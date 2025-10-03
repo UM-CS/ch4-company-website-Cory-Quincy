@@ -10,3 +10,9 @@ def home_page_view(request):
 
 class AboutPageView(TemplateView):
     template_name = "about.html"
+
+class ProductsPageView(TemplateView):
+    template_name = "products.html"
+    extra_context = {
+        "products": ["Product 1", "Product 2", "Product 3", "Product 4"],
+    }
