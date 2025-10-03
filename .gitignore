@@ -1,4 +1,6 @@
-f .venv/
+.venv/
 __pycache__/
 *.pyc
-
+.DS_Store
+db.sqlite3
+.vscode/
